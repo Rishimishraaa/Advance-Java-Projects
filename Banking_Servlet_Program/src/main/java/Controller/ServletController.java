@@ -25,6 +25,8 @@ public class ServletController extends HttpServlet{
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		String action = req.getServletPath();
 		System.out.println("hello Rishi");
+		
+		System.out.println("Hello Manas");
 		// Customer Operation Area
 		
 		switch(action) {
